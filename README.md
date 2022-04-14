@@ -21,11 +21,11 @@ Devices list is as follows:
 
 Data contents
 ---
-Dataset I contains three folders. Folder ``device_identify" contains the data of 30 different devices; folder ``location_invariance" contains the data of 4 devices in 10 different locations; folder ``environment_invariance" contains the data of 4 devices in 11 different environments.
+Dataset I contains three folders. Folder ``device_identify`` contains the data of 30 different devices; folder ``location_invariance`` contains the data of 4 devices in 10 different locations; folder ``environment_invariance`` contains the data of 4 devices in 11 different environments.
 
 Codes:
 ---
-Use ``dataset1_preprocessing.m" for data analysis and phase extraction.
+Use ``dataset1_preprocessing.m`` for data analysis and phase extraction.
 
 Dataset II
 ===
@@ -56,7 +56,7 @@ Dataset II contains three folders. The contents are similar to Dataset I.
 
 Codes:
 ---
-Use ``dataset2_preprocessing.m" for data analysis and phase extraction.
+Use ``dataset2_preprocessing.m`` for data analysis and phase extraction.
 
 Device_type_traffic
 ===
@@ -73,5 +73,5 @@ Device_type_traffic contains network traffic packets of 19 devices in the proces
 
 Codes
 ---
-Use ``device_type.m" for data analysis and traffic features extraction.
+Use ``device_type.m`` for data analysis and traffic features extraction.
 
