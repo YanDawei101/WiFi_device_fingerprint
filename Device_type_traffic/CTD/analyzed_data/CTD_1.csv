@@ -1,0 +1,37 @@
+No.,Time,Source,Destination,Protocol,Length,Info
+1,0,BeijingX_36:42:10,Broadcast,XID,60,Basic Format; Type 1 LLC (Class I LLC); Window Size 0
+2,0.115794,0.0.0.0,255.255.255.255,DHCP,350,DHCP Discover - Transaction ID 0xa87df877
+3,0.131684,0.0.0.0,255.255.255.255,DHCP,350,DHCP Request  - Transaction ID 0xa87df877
+4,0.17122,BeijingX_36:42:10,Broadcast,ARP,60,Who has 192.168.50.84? (ARP Probe)
+5,1.368806,BeijingX_36:42:10,Broadcast,ARP,60,Who has 192.168.50.84? (ARP Probe)
+6,1.879206,BeijingX_36:42:10,Broadcast,ARP,60,Who has 192.168.50.84? (ARP Probe)
+7,1.894766,::,ff02::1:ff36:4210,ICMPv6,78,Neighbor Solicitation for fe80::4623:7cff:fe36:4210
+8,1.910156,::,ff02::2,ICMPv6,62,Router Solicitation
+9,1.920838,BeijingX_36:42:10,Broadcast,ARP,60,ARP Announcement for 192.168.50.84
+10,1.940503,BeijingX_36:42:10,Broadcast,ARP,60,Who has 192.168.50.1? Tell 192.168.50.84
+11,2.094841,192.168.50.84,224.0.0.251,MDNS,88,"Standard query 0x0000 ANY MyHost.local, ""QU"" question A 192.168.50.84"
+12,2.393205,192.168.50.84,224.0.0.251,MDNS,88,"Standard query 0x0000 ANY MyHost.local, ""QM"" question A 192.168.50.84"
+13,2.687427,192.168.50.84,224.0.0.251,MDNS,88,"Standard query 0x0000 ANY MyHost.local, ""QM"" question A 192.168.50.84"
+14,2.904517,BeijingX_36:42:10,Broadcast,ARP,60,ARP Announcement for 192.168.50.84
+15,2.932167,fe80::4623:7cff:fe36:4210,ff02::2,ICMPv6,70,Router Solicitation from 44:23:7c:36:42:10
+16,3.013231,192.168.50.84,224.0.0.251,MDNS,110,"Standard query response 0x0000 A, cache flush 192.168.50.84 AAAA, cache flush fe80::4623:7cff:fe36:4210"
+17,3.045352,fe80::4623:7cff:fe36:4210,ff02::fb,MDNS,136,"Standard query 0x0000 ANY MyHost.local, ""QU"" question A 192.168.50.84 AAAA fe80::4623:7cff:fe36:4210"
+18,3.34443,fe80::4623:7cff:fe36:4210,ff02::fb,MDNS,192,"Standard query 0x0000 ANY MiBedsideLamp2-4210._hap._tcp.local, ""QU"" question ANY MyHost.local, ""QU"" question SRV 0 0 80 MyHost.local A 192.168.50.84 AAAA fe80::4623:7cff:fe36:4210"
+19,3.453893,192.168.50.84,224.0.0.251,MDNS,122,"Standard query 0x0000 ANY MiBedsideLamp2-4210._hap._tcp.local, ""QU"" question SRV 0 0 80 MyHost.local"
+20,3.64369,fe80::4623:7cff:fe36:4210,ff02::fb,MDNS,192,"Standard query 0x0000 ANY MiBedsideLamp2-4210._hap._tcp.local, ""QM"" question ANY MyHost.local, ""QM"" question SRV 0 0 80 MyHost.local A 192.168.50.84 AAAA fe80::4623:7cff:fe36:4210"
+21,3.760691,192.168.50.84,224.0.0.251,MDNS,122,"Standard query 0x0000 ANY MiBedsideLamp2-4210._hap._tcp.local, ""QM"" question SRV 0 0 80 MyHost.local"
+22,3.842945,BeijingX_36:42:10,Broadcast,ARP,60,ARP Announcement for 192.168.50.84
+23,3.844943,fe80::4623:7cff:fe36:4210,ff02::2,ICMPv6,70,Router Solicitation from 44:23:7c:36:42:10
+24,3.969249,fe80::4623:7cff:fe36:4210,ff02::fb,MDNS,192,"Standard query 0x0000 ANY MiBedsideLamp2-4210._hap._tcp.local, ""QM"" question ANY MyHost.local, ""QM"" question SRV 0 0 80 MyHost.local A 192.168.50.84 AAAA fe80::4623:7cff:fe36:4210"
+25,4.091886,192.168.50.84,224.0.0.251,MDNS,122,"Standard query 0x0000 ANY MiBedsideLamp2-4210._hap._tcp.local, ""QM"" question SRV 0 0 80 MyHost.local"
+26,4.275561,fe80::4623:7cff:fe36:4210,ff02::fb,MDNS,321,"Standard query response 0x0000 PTR _hap._tcp.local PTR MiBedsideLamp2-4210._hap._tcp.local SRV, cache flush 0 0 80 MyHost.local TXT, cache flush A, cache flush 192.168.50.84 AAAA, cache flush fe80::4623:7cff:fe36:4210"
+27,4.353074,192.168.50.84,224.0.0.251,MDNS,257,"Standard query response 0x0000 PTR _hap._tcp.local PTR MiBedsideLamp2-4210._hap._tcp.local SRV, cache flush 0 0 80 MyHost.local TXT, cache flush"
+28,4.876964,BeijingX_36:42:10,Broadcast,ARP,60,ARP Announcement for 192.168.50.84
+29,4.883535,fe80::4623:7cff:fe36:4210,ff02::2,ICMPv6,70,Router Solicitation from 44:23:7c:36:42:10
+30,5.484998,fe80::4623:7cff:fe36:4210,ff02::fb,MDNS,321,"Standard query response 0x0000 PTR _hap._tcp.local PTR MiBedsideLamp2-4210._hap._tcp.local SRV, cache flush 0 0 80 MyHost.local TXT, cache flush A, cache flush 192.168.50.84 AAAA, cache flush fe80::4623:7cff:fe36:4210"
+31,5.497809,192.168.50.84,224.0.0.251,MDNS,257,"Standard query response 0x0000 PTR _hap._tcp.local PTR MiBedsideLamp2-4210._hap._tcp.local SRV, cache flush 0 0 80 MyHost.local TXT, cache flush"
+32,6.515807,fe80::4623:7cff:fe36:4210,ff02::fb,MDNS,321,"Standard query response 0x0000 PTR _hap._tcp.local PTR MiBedsideLamp2-4210._hap._tcp.local SRV, cache flush 0 0 80 MyHost.local TXT, cache flush A, cache flush 192.168.50.84 AAAA, cache flush fe80::4623:7cff:fe36:4210"
+33,6.587976,192.168.50.84,224.0.0.251,MDNS,257,"Standard query response 0x0000 PTR _hap._tcp.local PTR MiBedsideLamp2-4210._hap._tcp.local SRV, cache flush 0 0 80 MyHost.local TXT, cache flush"
+34,7.539573,BeijingX_36:42:10,Broadcast,ARP,60,Who has 192.168.50.90? Tell 192.168.50.84
+35,7.836423,BeijingX_36:42:10,Broadcast,ARP,60,Who has 192.168.50.90? Tell 192.168.50.84
+36,24.01592,BeijingX_36:42:10,Broadcast,ARP,60,ARP Announcement for 192.168.50.84
