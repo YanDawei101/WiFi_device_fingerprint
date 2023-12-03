@@ -1,5 +1,7 @@
 # WiFi_device_fingerprint
 Datasets and codes for extracting nonlinear phase errors as WiFi devices fingerprints based on CSIs (Channel State Information). All data is collected at 2.4GHz OFDM wireless signal.
+Please cite our paper if you find it useful:
+Yan D, Yan Y, Yang P, et al. Real-Time Identification of Rogue WiFi Connections in the Wild[J]. IEEE Internet of Things Journal, 2022, 10(7): 6042-6058.
 
 Dataset I
 ===
